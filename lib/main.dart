@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
     try {
       final userData = await Constants.pb
           .collection('users')
-          .authWithPassword('test@gmail.com', "Bharatmk257");
+          .authWithPassword('test@gmail.com', "Wt9&DkHpDF9s#VGr");
 
       if (userData.token.isNotEmpty) {
         setState(() {
